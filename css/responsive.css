@@ -1,0 +1,60 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+
+@media screen and (max-width:1000px) {
+    header {
+        height: 151px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .search {
+        width: 377px;
+    }
+    .search button {
+        margin-left: 4px;
+    }
+    .search input {
+        width: 295px;
+        margin-left: 44px;
+    }
+    .slider img {
+        height: 200px;
+        width: 200px;
+    }
+    .card-item img {
+        height: 100px;
+        width: 100px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        /* justify-content: center; */
+        margin: 28px auto 0 auto;
+    }
+    .cards h2 {
+        margin-bottom: 14px;
+    }
+    .card-item img:hover {
+        transform: none;
+    }
+    .card-item lines:hover {
+        font-weight: bolder;
+        color: var(--main-bg-color);
+    }
+    .card-item {
+        margin-top: 20px;
+    }
+    .row-wise {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        height: 10vh;
+    }
+}
